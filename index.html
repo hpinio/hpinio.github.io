@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="SemiColonWeb" />
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="css/dark.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+  <title>Portfolio</title>
+</head>
+
+<body class="stretched">
+
+  <div id="wrapper" class="clearfix">
+
+    <section class="heading-block center nobottomborder topmargin">
+      <div class="container clearfix">
+        <h1>Haritian Pinio &amp; Partners</h1>
+        <span>Software Engineer and Digital Enthusiast</span>
+        <p class="topmargin-sm" style="font-size: 20px;">An advanced experienced software engineer mainly focused on web and mobile development with 8+ years experiences. Innovative use of technology and services to achieve goals and to bring benefits to team / corporate. Passionate about new technologies, services, and start-ups. Thinks that technology (specific to Digital / IT) should help and have impact in life style or businesses.</p>
+      </div>
+    </section>
+
+    <div class="container clearfix">
+      <div class="promo promo-light bottommargin">
+        <h3>Email us at <a href="mailto:haritian.pinio@gmail.com"><span>haritian.pinio@gmail.com</span></a></h3>
+        <span>We strive to help Our Customers with Quality work and Correct Solutions.</span>
+        <a href="#portfolio2" class="button button-xlarge button-rounded">Our Portfolio</a>
+      </div>
+    </div>
+
+    <div id="portfolio2">
+      <section id="page-title">
+        <div class="container clearfix">
+          <h1>Portfolio</h1>
+          <span>Showcase of Our Awesome Works</span>
+        </div>
+      </section>
+
+      <section id="content">
+        <div class="content-wrap">
+          <div class="container clearfix">
+            <div class="clear"></div>
+
+            <div id="portfolio" class="portfolio grid-container portfolio-1 clearfix">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container clearfix">
+      <div class="promo promo-light bottommargin">
+        <h3>Email us at <a href="mailto:haritian.pinio@gmail.com"><span>haritian.pinio@gmail.com</span></a></h3>
+        <span>We strive to help Our Customers with Quality work and Correct Solutions.</span>
+        <a href="#portfolio2" class="button button-xlarge button-rounded">Our Portfolio</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="gotoTop" class="icon-angle-up"></div>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/underscore-min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script type="text/javascript">
+    var blank = {
+      title: '',
+      description: '',
+      technologies: '',
+      role: '',
+      type: '',
+      time: '',
+      links: [{
+        text: '',
+        href: ''
+      }],
+      cover_image: '',
+      images: []
+    };
+    var data = [{
+        title: 'Data Management System, Department of Surgeon - Sam Ratulangi University, Manado',
+        description: 'Angular Web Application as Data Management System. Web application is used by Administration Staffs to manage data for Staff, Students, Lecturers, and Patients. Generating performance reports and data search.',
+        technologies: 'Angular 2, Lumen, Dingo API, JWT',
+        role: 'Analyst, Lead Software Engineer',
+        type: 'Web Application',
+        time: '2017',
+        links: [{
+          text: 'Website',
+          href: 'http://bedahunsrat.org/'
+        }],
+        cover_image: '/projects/bedahunsrat/cover.jpg',
+        images: [
+          '/projects/bedahunsrat/dashboard.jpg',
+          '/projects/bedahunsrat/list_students.jpg',
+          '/projects/bedahunsrat/details_student.jpg',
+          '/projects/bedahunsrat/search_students.jpg',
+          '/projects/bedahunsrat/details_patient.jpg',
+        ]
+      },
+      {
+        title: 'Health Safety, Environment and Quality (HSEQ) Management System for a Startup Company in Australia',
+        description: 'HSEQ Webapp for a startup company in Australia.',
+        technologies: 'CMS, Angular 1.x, ASP.NET Webform, SQL Server, Linq SQL, Dapper. RabbitMQ',
+        role: 'Full Stack Developer, Architect',
+        type: 'Webapp, Website',
+        time: '2016',
+        links: [{
+          text: 'Website',
+          href: 'http://system.epihub.com.au/'
+        }],
+        cover_image: '/projects/epihub/dashboard.jpg',
+        images: [
+          '/projects/epihub/login.jpg',
+          '/projects/epihub/dashboard.jpg',
+          '/projects/epihub/events.jpg',
+          '/projects/epihub/actions_complete.jpg',
+          '/projects/epihub/actions_incomplete.jpg',
+          '/projects/epihub/add_event.jpg',
+          '/projects/epihub/edit_action.jpg',
+          '/projects/epihub/actionpopup1.jpg',
+          '/projects/epihub/actionpopup2.jpg',
+          '/projects/epihub/stats_overview.jpg',
+          '/projects/epihub/stats_eh.jpg',
+          '/projects/epihub/stats_ir.jpg',
+          '/projects/epihub/stats_breakdown.jpg',
+          '/projects/epihub/stats_breakdown2.jpg',
+          '/projects/epihub/settings.jpg',
+          '/projects/epihub/workgroups.jpg',
+          '/projects/epihub/workgroup.jpg',
+          '/projects/epihub/users.jpg',
+        ]
+      },
+      {
+        title: 'Paradise Property Group',
+        description: 'Website for Paradise Property Group (Bali), a big Real Estate Company in Bali.',
+        technologies: 'PHP, Laravel, Bootstrap, Angular, MySQL, MyDesktop Integration (http://www.mydesktop.com.au/) for Property Data',
+        role: 'Full Stack Developer, Architect',
+        type: 'Website',
+        time: '2015 - 2016',
+        links: [{
+          text: 'Website',
+          href: 'http://paradisepropertygroupbali.com/'
+        }],
+        cover_image: '/projects/ppg/index.jpg',
+        images: [
+          '/projects/ppg/menu.jpg',
+          '/projects/ppg/propertylisting.jpg',
+          '/projects/ppg/propertydetails.jpg',
+          '/projects/ppg/agentproplist.jpg',
+          '/projects/ppg/agents.jpg',
+          '/projects/ppg/beyondbali.jpg',
+          '/projects/ppg/contact.jpg',
+          '/projects/ppg/csr.jpg',
+          '/projects/ppg/faq.jpg',
+          '/projects/ppg/propertylisting2.jpg',
+          '/projects/ppg/search.jpg',
+          '/projects/ppg/searchresult.jpg',
+        ]
+      },
+      {
+        title: 'Anna Bali Tour',
+        description: 'Website for a Tour Company in Bali',
+        technologies: 'HTML, Jekyll, CSS, JS',
+        role: 'Full Stack Developer, Architect',
+        type: 'Website',
+        time: '2015',
+        links: [{
+          text: 'Website',
+          href: 'http://www.annabalitour.com/'
+        }],
+        cover_image: '/projects/abt/index.jpg',
+        images: [
+          '/projects/abt/why.jpg',
+          '/projects/abt/vilas.jpg',
+          '/projects/abt/packages.jpg',
+          '/projects/abt/reservation.jpg',
+          '/projects/abt/contact.jpg',
+          '/projects/abt/bali.jpg',
+          '/projects/abt/kuta.jpg',
+          '/projects/abt/facts.jpg',
+          '/projects/abt/facts1.jpg',
+        ]
+      },
+      {
+        title: 'Women On Boards',
+        description: 'Website for Women On Boards Organisation',
+        technologies: 'Kentico CMS, LESS, JS, Bootstrap',
+        role: 'Front End Developer',
+        type: 'Website',
+        time: '2015 (left during phase 1)',
+        links: [{
+          text: 'Website',
+          href: 'https://www.womenonboards.net'
+        }],
+        cover_image: '/projects/wob/index.jpg',
+        images: [
+          '/projects/wob/events.jpg',
+        ]
+      },
+      {
+        title: 'ZIP Industries',
+        description: 'Website for ZIP Industries, Australia',
+        technologies: 'Sitecore CMS, LESS, JS, Bootstrap',
+        role: 'Front End Developer',
+        type: 'Website',
+        time: '2015',
+        links: [{
+          text: 'Website',
+          href: 'https://www.zipwater.com'
+        }],
+        cover_image: '/projects/zip/index.jpg',
+        images: [
+          // '/projects/zip/index.jpg',
+          '/projects/zip/productselector1.jpg',
+          '/projects/zip/productselector2.jpg',
+          '/projects/zip/productselector3.jpg',
+          '/projects/zip/productdetails.jpg',
+          '/projects/zip/shop.jpg',
+          '/projects/zip/zipeffect.jpg',
+        ]
+      },
+      {
+        title: 'HP Constructions',
+        description: 'Website for HP Constructions, Sydney, Australia',
+        technologies: 'HTML, CSS, JS, LESS',
+        role: 'Developer',
+        type: 'Static Website',
+        time: '2015',
+        links: [{
+          text: 'Website',
+          href: 'http://hpconstructions.com.au/'
+        }],
+        cover_image: '/projects/hpc/index.jpg',
+        images: [
+          // '/projects/hpc/index.jpg',
+          '/projects/hpc/portfolio.jpg',
+          '/projects/hpc/profile.jpg',
+        ]
+      },
+      {
+        title: 'Star Cruise',
+        description: 'Prototype and Mock-Up for Star Cruise website',
+        technologies: 'HTML, CSS, JS, Stylus (http://stylus-lang.com/)',
+        role: 'Developer',
+        type: 'Prototype, Static Website',
+        time: '2015',
+        links: [{
+          text: 'Website (Prototype)',
+          href: '#'
+        }],
+        cover_image: '/projects/starcruise/starcruise-home.jpg',
+        images: [
+          // '/projects/starcruise/starcruise-home.jpg',
+          '/projects/starcruise/starcruise-play.jpg',
+          '/projects/starcruise/starcruise-dine.jpg',
+          '/projects/starcruise/starcruise-rest.jpg',
+        ]
+      },
+      {
+        title: 'aidWeb / aidPost',
+        description: 'Website for a startup that list NGOs',
+        technologies: 'PHP, Laravel, Bootstrap, MySQL, LESS, Underscore js',
+        role: 'Full Stack Developer, Architect',
+        type: 'Website',
+        time: '2014 - 2015',
+        links: [{
+          text: 'Website (Closed)',
+          href: 'http://aidpost.org/'
+        }],
+        cover_image: '/projects/aidpost/index.jpg',
+        images: [
+          '/projects/aidpost/news.jpg',
+        ]
+      },
+      {
+        title: 'Kudos Points',
+        description: 'Kudos Points is a People Recognition System allowing collegues to give feedbacks, communicate, award, and recognise one another. Virtual leaderboard is introduced to give people with great performance a fair acknowledgement and appreciation. Kudos Points comes with Website and Mobile Apps.',
+        technologies: '.NET 3.5 - 4, ASP.NET Web Form, SQL Server, LLBLGen ORM, ASP.NET Web API, backbone.js, underscore.js, less, grunt, node.js, PhoneGap',
+        role: 'Full Stack Developer, Architect',
+        type: 'Webapp, IOS App, Android App',
+        time: '2013 - 2015',
+        links: [{
+            text: 'Website',
+            href: 'http://kudospoints.com.au/'
+          },
+          {
+            text: 'Android App',
+            href: 'https://play.google.com/store/apps/details?id=au.com.bullseye.kudos&hl=en',
+          },
+          {
+            text: 'IOS App',
+            href: 'https://itunes.apple.com/us/app/kudospoints/id698480721?mt=8'
+          }
+        ],
+        cover_image: '/projects/kudos/Kudos.jpg',
+        images: [
+          // '/projects/kudos/Kudos.jpg',
+          '/projects/kudos/kudos-appstore.jpg',
+          '/projects/kudos/kudos-playstore.jpg',
+        ]
+      },
+      {
+        title: 'People Prophet',
+        description: 'People Prophet is an HR Management "Software as a Service (SaaS)". Contains elements like: People Register, Competency Management, Performance Reviews, Competency Audit, Performance Appraisal, Skills Manager, etc',
+        technologies: '.NET 3.5 - 4, ASP.NET Web Form, SQL Server, LLBLGen ORM, ASP.NET Web API, backbone.js, underscore.js, less, grunt, node.js, PhoneGap',
+        role: 'Full Stack Developer, Architect',
+        type: 'Webapp',
+        time: '2013 - 2015',
+        links: [{
+          text: 'Website',
+          href: 'http://www.people-prophet.com/'
+        }],
+        cover_image: '/projects/pp/people-prophet-site.jpg',
+        images: [
+          // '/projects/pp/people-prophet-site.jpg',
+          '/projects/pp/people-prophet-pricing.jpg',
+          '/projects/pp/people-prophet-team.jpg',
+          '/projects/pp/people-prophet-modules.jpg',
+          '/projects/pp/people-prophet-loggedin.jpg',
+          '/projects/pp/people-prophet-loggedin-kudos.jpg',
+          '/projects/pp/people-prophet-blog.jpg',
+          '/projects/pp/people-prophet-contact.jpg',
+          '/projects/pp/people-prophet-faq.jpg',
+        ]
+      },
+      {
+        title: 'DKWeddings',
+        description: 'Personal Startup about Directory of Wedding Vendors and Honeymoon Packages (currently closed)',
+        technologies: 'Mono (.NET on Linux), ASP.NET MVC, UBuntu, Nginx, MySQL, Dapper ORM',
+        role: 'Full Stack Developer, Architect',
+        type: 'Website',
+        time: '2013 - 2014',
+        links: [{
+          text: 'Website (Closed)',
+          href: '#'
+        }],
+        cover_image: '/projects/dkweddings/dkweddings-home.jpg',
+        images: [
+          '/projects/dkweddings/dkweddings-homefilter.jpg',
+          '/projects/dkweddings/dkweddings-homefilter2.jpg',
+          '/projects/dkweddings/dkweddings-homefull.jpg',
+          '/projects/dkweddings/dkweddings-honeymoondetails.jpg',
+          '/projects/dkweddings/dkweddings-honeymoonpicture.jpg',
+          '/projects/dkweddings/dkweddings-honeymoons.jpg',
+          '/projects/dkweddings/dkweddings-inpiration2.jpg',
+          '/projects/dkweddings/dkweddings-inspiration1.jpg',
+          '/projects/dkweddings/dkweddings-inspirationpopop1.jpg',
+          '/projects/dkweddings/dkweddings-inspirationpopup2.jpg',
+          '/projects/dkweddings/dkweddings-inspirationpopup3.jpg',
+          '/projects/dkweddings/dkweddings-login.jpg',
+          '/projects/dkweddings/dkweddings-page.jpg',
+          '/projects/dkweddings/dkweddings-register.jpg',
+          '/projects/dkweddings/dkweddings-registervendor.jpg',
+          '/projects/dkweddings/dkweddings-vendor.jpg',
+          '/projects/dkweddings/dkweddings-vendor.jpg',
+          '/projects/dkweddings/dkweddings-vendordetails.jpg',
+          '/projects/dkweddings/dkweddings-vendordetails2.jpg',
+          '/projects/dkweddings/dkweddings-vendordetails3.jpg',
+          '/projects/dkweddings/dkweddings-vendordetailsalbumview.jpg',
+        ]
+      },
+      {
+        title: 'Whisky Saigon',
+        description: 'Website for Whisky Saigon Nightclub, Boston, USA',
+        technologies: 'ASP.NET MVC, SQL Server, NHibernate ORM, JS, CSS',
+        role: 'Full Stack Developer, Architect',
+        type: 'Website',
+        time: '2014',
+        links: [{
+          text: 'Website',
+          href: 'http://www.whiskysaigon.com/'
+        }],
+        cover_image: '/projects/whiskysaigon/WhiskySaigonHome.jpg',
+        images: [
+          '/projects/whiskysaigon/WhiskySaigonLocation.jpg',
+          '/projects/whiskysaigon/WhiskySaigonEvents.jpg',
+          '/projects/whiskysaigon/WhiskySaigonEventDetail.jpg',
+          '/projects/whiskysaigon/WhiskySaigonPage.jpg',
+          '/projects/whiskysaigon/WhiskySaigonPage2.jpg',
+          '/projects/whiskysaigon/WhiskySaigonPage3.jpg',
+          '/projects/whiskysaigon/WhiskySaigonPageTransition.jpg',
+          '/projects/whiskysaigon/WhiskySaigonContact.jpg',
+        ]
+      },
+      {
+        title: 'Sentosa Villas Group',
+        description: 'Custom CMS for Sentosa Villas Group (5 websites): Sentosa Seminyak (formerly www.sentosaseminyak.com), Sentosa Worldwide Resort (formerly www.sentosaworldwide.com), Sentosa Umalas (formerly www.sentosaumalas.com), Sea Sentosa (formerly www.seasentosa.com), and Sentosa Jakarta (www.sentosajakarta.com)',
+        technologies: 'ASP.NET MVC, NHibernate ORM, SQL Server',
+        role: 'Full Stack Developer, Architect',
+        type: 'Website',
+        time: '2013 - 2014',
+        links: [{
+          text: 'Website (Closed)',
+          href: '#'
+        }],
+        cover_image: '/projects/sentosa/seasentosahomepage.jpg',
+        images: [
+          '/projects/sentosa/SeaSentosaBlog.jpg',
+          '/projects/sentosa/seasentosacommonpage.jpg',
+          '/projects/sentosa/seasentosagalleryimage.jpg',
+          '/projects/sentosa/seasentosagallerypage.jpg',
+          '/projects/sentosa/seasentosalinkspage.jpg',
+          '/projects/sentosa/SentosaJakarta.jpg',
+          '/projects/sentosa/SentosaJakartaGallery.jpg',
+          '/projects/sentosa/SentosaJakartaGalleryImages.jpg',
+          '/projects/sentosa/SentosaJakartaNews1.jpg',
+          '/projects/sentosa/SentosaJakartaPage.jpg',
+          '/projects/sentosa/SentosaUmalas.jpg',
+          '/projects/sentosa/SentosaUmalasGallery.jpg',
+          '/projects/sentosa/SentosaUmalasGallery2.jpg',
+          '/projects/sentosa/SentosaUmalasGalleryImages.jpg',
+          '/projects/sentosa/SentosaUmalasPage.jpg',
+          '/projects/sentosa/SentosaWorldwide.jpg',
+          '/projects/sentosa/OAdminLogin.jpg',
+          '/projects/sentosa/OAdminDashboard.jpg',
+          '/projects/sentosa/OAdminFilesManager.jpg',
+          '/projects/sentosa/OAdminGalleryManager.jpg',
+          '/projects/sentosa/OAdminGalleryManagerImages.jpg',
+          '/projects/sentosa/OAdminGenericItems.jpg',
+          '/projects/sentosa/OAdminMenus.jpg',
+          '/projects/sentosa/OAdminMenus2.jpg',
+          '/projects/sentosa/OAdminMenus3.jpg',
+          '/projects/sentosa/OAdminNewsManager.jpg',
+          '/projects/sentosa/OAdminPageManager.jpg',
+          '/projects/sentosa/OAdminReservationsManager.jpg',
+          '/projects/sentosa/OAdminSettings.jpg',
+          '/projects/sentosa/OAdminSidebars.jpg',
+          '/projects/sentosa/OAdminSpecialOffersManager.jpg',
+          '/projects/sentosa/OAdminSubscribersManager.jpg',
+          '/projects/sentosa/OAdminTemplateSettings.jpg',
+          '/projects/sentosa/OAdminHelpPage.jpg',
+          '/projects/sentosa/OAdminWidget.jpg',
+        ]
+      },
+    ]
+    $(function () {
+      for (var i = 0; i < data.length; i++) {
+        var tpl = _.template($('#portfolio_item_template').html());
+        var rendered = tpl(data[i]);
+        $('#portfolio').append(rendered);
+      }
+    })
+  </script>
+  <script type="yo/mama" id="portfolio_item_template">
+    <article class="portfolio-item pf-media pf-icons clearfix">
+      <div class="portfolio-image">
+        <a href="#">
+          <img src="<%= cover_image %>" alt="<%= title %>" style="width:100%;height:auto">
+        </a>
+        <div class="portfolio-overlay" data-lightbox="gallery">
+          <a href="<%= cover_image %>" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+          <% _.each(images, function(item) { %>
+            <a href="<%= item %>" class="hidden" data-lightbox="gallery-item"></a>
+            <% }) %>
+        </div>
+      </div>
+      <div class="portfolio-desc">
+        <h3>
+          <a href="">
+            <%= title %>
+          </a>
+        </h3>
+        <p>
+          <%= description %>
+        </p>
+        <ul class="iconlist">
+          <li><i class="icon-ok"></i> <strong>Type:</strong>
+            <%= type %>
+          </li>
+          <li><i class="icon-ok"></i> <strong>Created Using:</strong>
+            <%= technologies %>
+          </li>
+          <li><i class="icon-ok"></i> <strong>Developed on:</strong>
+            <%= time %>
+          </li>
+          <li><i class="icon-ok"></i> <strong>Contribution:</strong>
+            <%= role %>
+          </li>
+        </ul>
+        <% _.each(links, function(item) { %>
+          <a href="<%= item.href %>" class="button button-3d noleftmargin" target="_blank">
+            <%= item.text %>
+          </a>
+          <% }) %>
+      </div>
+    </article>
+  </script>
+  <script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+
+</html>
